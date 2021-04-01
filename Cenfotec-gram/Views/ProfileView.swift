@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State private var selected = 5
+    @State private var selected = 1
     
     var body: some View {
         NavigationView{
@@ -20,8 +20,9 @@ struct ProfileView: View {
                     .tabItem { Image(systemName: "heart")}
                     .tag(4)
 
-                    MainView()
-                .tabItem { Image(systemName: "person.fill") }.tag(5)
+                MainView()
+                .tabItem { Image(systemName: "person.fill")}
+                .tag(5)
                     }
             .navigationBarTitle("Cenfotec-gram",displayMode: .inline)
         }
