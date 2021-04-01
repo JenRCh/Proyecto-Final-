@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636BD7D7261560E20037494F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD7D6261560E20037494F /* HomeView.swift */; };
 		638AD499261404EE00974502 /* Cenfotec_gramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AD498261404EE00974502 /* Cenfotec_gramApp.swift */; };
 		638AD49B261404EE00974502 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AD49A261404EE00974502 /* ContentView.swift */; };
 		638AD49D261404EF00974502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638AD49C261404EF00974502 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		636BD7D6261560E20037494F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		638AD495261404EE00974502 /* Cenfotec-gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cenfotec-gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		638AD498261404EE00974502 /* Cenfotec_gramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cenfotec_gramApp.swift; sourceTree = "<group>"; };
 		638AD49A261404EE00974502 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				638AD4A926140E2000974502 /* ProfileView.swift */,
+				636BD7D6261560E20037494F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				638AD49B261404EE00974502 /* ContentView.swift in Sources */,
+				636BD7D7261560E20037494F /* HomeView.swift in Sources */,
 				638AD4AA26140E2000974502 /* ProfileView.swift in Sources */,
 				638AD499261404EE00974502 /* Cenfotec_gramApp.swift in Sources */,
 			);

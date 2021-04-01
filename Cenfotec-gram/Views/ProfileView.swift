@@ -7,7 +7,7 @@ struct ProfileView: View {
         NavigationView{
             
             TabView(selection: $selected) {
-                Text("Tab Content 1")
+                HomeView()
                     .tabItem { Image(systemName: "house")}
                     .tag(1)
                 Text("Tab Content 2")
@@ -23,7 +23,7 @@ struct ProfileView: View {
                     MainView()
                 .tabItem { Image(systemName: "person.fill") }.tag(5)
                     }
-            .navigationBarTitle("a_swiftly_tilting_planet_",displayMode: .inline)
+            .navigationBarTitle("Cenfotec-gram",displayMode: .inline)
         }
     }
 }
